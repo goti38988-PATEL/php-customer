@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Ticket - VConnect IT</title>
+
+<style>
+
+body{
+font-family:Segoe UI;
+background:#f4f7fa;
+padding:30px;
+}
+
+.container{
+max-width:800px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#2563eb;
+}
+
+input,select,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ddd;
+border-radius:8px;
+}
+
+button{
+background:#2563eb;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Create Support Ticket</h2>
+
+<label>Company Name</label>
+<input type="text">
+
+<label>Contact Person</label>
+<input type="text">
+
+<label>Issue Category</label>
+<select>
+<option>Computer Issue</option>
+<option>Printer Issue</option>
+<option>Network Issue</option>
+<option>ERP Issue</option>
+<option>CCTV Issue</option>
+<option>Server Issue</option>
+<option>Email Issue</option>
+<option>Other</option>
+</select>
+
+<label>Priority</label>
+<select>
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+<option>Critical</option>
+</select>
+
+<label>Description</label>
+<textarea rows="6"></textarea>
+
+<label>Upload Screenshot</label>
+<input type="file">
+
+<br><br>
+
+<button>Submit Ticket</button>
+
+</div>
+
+</body>
+</html>

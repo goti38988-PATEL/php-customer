@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VConnect IT Dashboard</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f8fafc;
+}
+
+.header{
+background:#0f172a;
+color:white;
+padding:20px;
+}
+
+.dashboard{
+padding:30px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:220px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.card h2{
+margin:0;
+color:#2563eb;
+}
+
+.btn{
+background:#10b981;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin-top:20px;
+}
+
+table{
+width:100%;
+margin-top:30px;
+background:white;
+border-collapse:collapse;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+th,td{
+padding:15px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+
+th{
+background:#2563eb;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>VConnect IT Customer Dashboard</h1>
+</div>
+
+<div class="dashboard">
+
+<div class="cards">
+
+<div class="card">
+<h2>12</h2>
+<p>Total Tickets</p>
+</div>
+
+<div class="card">
+<h2>3</h2>
+<p>Open Tickets</p>
+</div>
+
+<div class="card">
+<h2>2</h2>
+<p>In Progress</p>
+</div>
+
+<div class="card">
+<h2>7</h2>
+<p>Resolved</p>
+</div>
+
+</div>
+
+<button class="btn">
++ Create New Ticket
+</button>
+
+<table>
+
+<tr>
+<th>Ticket ID</th>
+<th>Issue</th>
+<th>Status</th>
+<th>Date</th>
+</tr>
+
+<tr>
+<td>#VC1001</td>
+<td>Printer Not Working</td>
+<td>Open</td>
+<td>09-10-2026</td>
+</tr>
+
+<tr>
+<td>#VC1002</td>
+<td>ERP Login Error</td>
+<td>In Progress</td>
+<td>08-10-2026</td>
+</tr>
+
+<tr>
+<td>#VC1003</td>
+<td>Network Issue</td>
+<td>Resolved</td>
+<td>06-10-2026</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
